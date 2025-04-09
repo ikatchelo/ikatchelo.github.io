@@ -1,0 +1,1 @@
+var _d=[{"type":1,"val":300,"weight":15},{"type":1,"val":150,"weight":5},{"type":1,"val":500,"weight":5},{"type":1,"val":800,"weight":1},{"type":1,"val":200,"weight":20},{"type":1,"val":250,"weight":20}];window['FastLottery']=_d;

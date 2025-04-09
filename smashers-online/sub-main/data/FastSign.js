@@ -1,0 +1,1 @@
+var _d=[{"type":1,"val":100},{"type":1,"val":200},{"type":1,"val":100},{"type":1,"val":100},{"type":1,"val":100},{"type":1,"val":200},{"type":1,"val":1000}];window['FastSign']=_d;
