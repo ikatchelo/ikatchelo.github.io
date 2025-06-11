@@ -17,32 +17,7 @@
     <script src="modules.js"></script>
     <script src="start.js"></script>
     <script src="loading.js"></script>
-    <script type="text/javascript">
-        window.SDK_OPTIONS = {
-            gameId: "f15co4i47og2xj3qc10oe77l69ga8f6n",
-            onEvent: function (a) {
-                const app = pc.Application.getApplication(); // Get reference to the PlayCanvas app
-                switch (a.name) {
-                    case "SDK_GAME_PAUSE":
-                        app.fire("pause");
-                        // pause game logic / mute audio
-                        break;
-                    case "SDK_GAME_START":
-                        app.fire("resume");
-
-                        // advertisement done, resume game logic and unmute audio
-                        break;
-                    case "SDK_READY":
-                        // when sdk is ready
-                        break;
-                }
-            }
-        };
-        (function (a, b, c) {
-            var d = a.getElementsByTagName(b)[0];
-            a.getElementById(c) || (a = a.createElement(b), a.id = c, a.src = "gm-sdk.js", d.parentNode.insertBefore(a, d))
-        })(document, "script", "gamemonetize-sdk"); 
-    </script>
+  
 </body>
 
 </html>
