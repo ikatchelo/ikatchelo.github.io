@@ -1,0 +1,1 @@
+"use strict";"serviceWorker"in navigator&&window.addEventListener("load",async()=>{let e=window.location.pathname,s=null;if(e.includes("/games/")?s="/games/sws.js":e.includes("/game-assets/")&&(s="/game-assets/sws.js"),s)try{let a=await navigator.serviceWorker.register(s,{scope:s.replace("sws.js",""),updateViaCache:"none"});await a.update()}catch(t){}});
